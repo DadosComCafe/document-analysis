@@ -5,4 +5,5 @@ O projeto possui como principal ideia a estruturação dos obtidos de fontes de 
 Este projeto visa explorar o uso do serviço [__document-ai__](https://docs.cloud.google.com/document-ai/docs/overview?hl=pt-br), usando-o como uma __tool__ dentro de um agente adk. O agente deve receber arquivos de vários formatos de imagem, texto, ou documentos, e gerar um __Json__, com as informações necessárias obtidas da análise deste arquivo/documento enviado.   
 
 # Exemplo de Uso 
-Por exemplo, você espera que o agente categorize notas fiscais, que podem vir em uma variedade de formatos (.xml, .jpg, .png, .pdf, .docx etc), e você possui 
+Por exemplo, você espera que o agente categorize notas fiscais, que podem vir em uma variedade de formatos (.xml, .jpg, .png, .pdf, .docx etc), e você possui um padrão de informações que quer obter. O que você deve fazer, é definir os campos os quais você quer informação do arquivo. Por exemplo em notas fiscais, quero de informações direta o nome da empresa, o nome do produto, o preço pago, de informações indiretas a classificação do produto, a usabilidade do produto. Sendo __informações diretas__ sendo obtidas puramente da extração do texto, e __informações indiretas__ através de uma análise ou processamento das __informações diretas__ extraídas do arquivo/documento.
+
