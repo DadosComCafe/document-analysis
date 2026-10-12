@@ -9,3 +9,14 @@ Por exemplo, você espera que o agente categorize notas fiscais, que podem vir e
 
 
 ![Logo](/images/logo.png)
+
+
+# Como usar
+1. git clone
+2. Entre no diretório document_analysis_agent/, e edite a variável de ambiente
+3. Configure o ambiente python com o uv
+4. Rode o arquivo .sh para exportar as variáveis de ambiente
+5. Rode o agente com o uv
+
+__OBS:__ Você necessita ter um projeto gcp previamente criado, com o vertex ativo. Em caso de dúvidas, use o seguinte repositório:
+- 
