@@ -16,3 +16,12 @@ Nessa página, também há a opção de usar o __Document OCR__ (sigla para Opti
 
 
 ## Criar o Processador
+- Ao clicar em __Document OCR__, um menu vertical na direita irá abrir, onde você deve informar o nome do seu Processador que será criado.<br>
+![criando processador](images/criar_processador1.png)
+
+- Ao final de alguns segundos, após clicar em create, se tudo ocorrer bem, uma página como a seguir será exibida:<br>
+![criando processador2](images/criar_processador2.png)
+
+- Antes de finalizarmos a parte da construção do nosso processador, vamos testá-lo. Na página em que está aberto, no canto inferior esquerdo há um botão "Upload test Document", clique nele para testar o processador.<br>
+![testando processador](images/testando_processador.png)
+- Para este teste, utilizei o seguinte pdf [PDF TESTE](images/pdf_sample_2.pdf). Verificamos que o processador foi capaz de coletar corretamente cada bloco de texto. Embora isto seja muito simples, fique a vontade para usar outros arquivos e/ou outros formatos, para melhor estressar o processador.
