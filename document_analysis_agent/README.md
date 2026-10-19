@@ -31,3 +31,4 @@ Nessa página, também há a opção de usar o __Document OCR__ (sigla para Opti
 - Nesta etapa do processo, a execução do módulo python `documentai_test_sample.py`, retornará um erro de permissão __(403)__, cuja razão é __IAM_PERMISSION_DENIED__.
 
 - Assim como, para utilizar a IA através do Vertex precisamos dar essa permissão a nossa Service Account, vamos atribuir a ela uma role apropriada.
+![403](images/Erro_403.png)
