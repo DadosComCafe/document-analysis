@@ -25,3 +25,9 @@ Nessa página, também há a opção de usar o __Document OCR__ (sigla para Opti
 - Antes de finalizarmos a parte da construção do nosso processador, vamos testá-lo. Na página em que está aberto, no canto inferior esquerdo há um botão "Upload test Document", clique nele para testar o processador.<br>
 ![testando processador](images/testando_processador.png)
 - Para este teste, utilizei o seguinte pdf [PDF TESTE](images/pdf_sample_2.pdf). Verificamos que o processador foi capaz de coletar corretamente cada bloco de texto. Embora isto seja muito simples, fique a vontade para usar outros arquivos e/ou outros formatos, para melhor estressar o processador.
+
+
+## Dando Permissão para a Service Account
+- Nesta etapa do processo, a execução do módulo python `documentai_test_sample.py`, retornará um erro de permissão __(403)__, cuja razão é __IAM_PERMISSION_DENIED__.
+
+- Assim como, para utilizar a IA através do Vertex precisamos dar essa permissão a nossa Service Account, vamos atribuir a ela uma role apropriada.
