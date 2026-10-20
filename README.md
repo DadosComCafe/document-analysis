@@ -34,3 +34,6 @@ Por exemplo, você espera que o agente categorize notas fiscais, que podem vir e
         
 __OBS:__ Você necessita ter um projeto gcp previamente criado, com o vertex ativo. Em caso de dúvidas, use o seguinte repositório para guiá-lo:
 - https://github.com/DadosComCafe/genai_gcp_study
+
+# Configurar o Serviço DocumentAI da GCP
+[Ativando, Configurando e Usando o DocumentAI](./document_analysis_agent/README.md)
