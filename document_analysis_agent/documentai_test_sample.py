@@ -17,7 +17,7 @@ request = documentai_v1.GetProcessorRequest(name=full_processor_name)
 processor = client.get_processor(request=request)
 
 print(f"Processor Name: {processor.name}")
-
+file_path = "images/pdf_sample_2.pdf"
 with open(file_path, "rb") as image:
     image_content = image.read()
 
