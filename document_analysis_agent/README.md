@@ -32,3 +32,17 @@ Nessa página, também há a opção de usar o __Document OCR__ (sigla para Opti
 
 - Assim como, para utilizar a IA através do Vertex precisamos dar essa permissão a nossa Service Account, vamos atribuir a ela uma role apropriada.
 ![403](images/Erro_403.png)
+
+* __Passo a Passo__:
+    - 1. Acesse o console do Google Cloud IAM & Admin.
+    - 2. Certifique-se de selecionar o projeto correto onde o seu processador do Document AI está configurado.
+    - 3. Na aba IAM, clique no botão Conceder Acesso (Grant Access).
+    - 4. No campo Novos principais (New principals), insira o e-mail completo da sua Service Account.
+    ![atribuindo role](images/atribuindo_role.png)
+    - 5. No campo Selecionar um papel (Select a role), busque por Document AI e escolha uma das seguintes opções dependendo da necessidade:
+            - Usuário da API Document AI (roles/documentai.apiUser): Permite enviar documentos para processamento.
+            - Visualizador do Document AI (roles/documentai.viewer): Permite apenas visualizar recursos e processadores.
+            - Administrador do Document AI (roles/documentai.admin): Controle total para criar e gerenciar processadores.
+    
+    - Pronto, você já pode executar e ver o resultado:
+        ![executando script](images/executando_documentai.png)
