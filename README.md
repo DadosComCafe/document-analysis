@@ -15,25 +15,30 @@ Por exemplo, você espera que o agente categorize notas fiscais, que podem vir e
 1. Clone este repositório:
     - git clone https://github.com/DadosComCafe/document-analysis
 
-2. Entre no diretório document_analysis_agent/, e edite a variável de ambiente
+2. Entre no diretório raiz, e edite a variável de ambiente
     - cd document_analysis
-    - cd document_analysis_agent
     - Use o arquivo __env_sample.sh__ para criar o __env.sh__ 
 
 3. Configure o ambiente python com o uv:
-    - Dentro de __document_analysis_agent__, execute:
+    - No diretório raiz, execute:
         - uv sync
 
 4. Rode o arquivo .sh para exportar as variáveis de ambiente:
-    - Dentro de __document_analysis_agent__, execute:
+    - No diretório raiz, execute:
         - source env.sh
 
-5. Rode o agente com o uv
-    - Dentro de __document_analysis_agent__, execute:
-        - uv run main.py
-        
-__OBS:__ Você necessita ter um projeto gcp previamente criado, com o vertex ativo. Em caso de dúvidas, use o seguinte repositório para guiá-lo:
+5. __Opcional:__ Rode o agente com o uv:
+    - No diretório raiz, execute:
+        - uv run src/document_analysis_agent/agent.py
+
+6. __Opcional:__ Rode o example com o uv:
+    - No diretório raíz, execute:
+        - uv run examples/documentai_test_sample.py
+
+__OBS1:__ Você necessita ter um projeto gcp previamente criado, com o vertex ativo. Em caso de dúvidas, use o seguinte repositório para guiá-lo:
 - https://github.com/DadosComCafe/genai_gcp_study
+
+__OBS2:__ Também é necessário estar com o serviço DocumentAI ativado e configurado no seu projeto GCP.
 
 # Configurar o Serviço DocumentAI da GCP
 [Ativando, Configurando e Usando o DocumentAI](./docs/setup-documentai.md)
