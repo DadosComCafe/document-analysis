@@ -11,7 +11,7 @@ Por exemplo, você espera que o agente categorize notas fiscais, que podem vir e
 ![Logo](/images/logo.png)
 
 
-# Como usar
+# Como usar (TODO: Atualizar isso)
 1. Clone este repositório:
     - git clone https://github.com/DadosComCafe/document-analysis
 
@@ -36,4 +36,4 @@ __OBS:__ Você necessita ter um projeto gcp previamente criado, com o vertex ati
 - https://github.com/DadosComCafe/genai_gcp_study
 
 # Configurar o Serviço DocumentAI da GCP
-[Ativando, Configurando e Usando o DocumentAI](./document_analysis_agent/README.md)
+[Ativando, Configurando e Usando o DocumentAI](./docs/setup-documentai.md)
