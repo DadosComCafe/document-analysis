@@ -1,0 +1,15 @@
+[project]
+name = "document-analysis-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "google-adk>=2.11.0",
+    "google-api>=0.1.12",
+    "google-api-core>=2.34.0",
+    "google-cloud>=0.34.0",
+    "google-cloud-documentai>=3.16.0",
+    "google-genai>=2.29.0",
+    "python-decouple>=3.8",
+]
