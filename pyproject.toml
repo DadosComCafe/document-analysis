@@ -11,5 +11,11 @@ dependencies = [
     "google-cloud>=0.34.0",
     "google-cloud-documentai>=3.16.0",
     "google-genai>=2.29.0",
+    "pydantic>=2.14.1",
     "python-decouple>=3.8",
+]
+
+[dependency-groups]
+dev = [
+    "pymupdf>=2.0",
 ]

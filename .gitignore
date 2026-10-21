@@ -4,3 +4,5 @@ __pycache__/
 .venv/
 *credentials.json
 *env.sh
+*invoices_pdf/
+*invoices_images/
