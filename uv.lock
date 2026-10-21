@@ -327,6 +327,7 @@ dependencies = [
     { name = "google-cloud" },
     { name = "google-cloud-documentai" },
     { name = "google-genai" },
+    { name = "pydantic" },
     { name = "python-decouple" },
 ]
 
@@ -338,6 +339,7 @@ requires-dist = [
     { name = "google-cloud", specifier = ">=0.34.0" },
     { name = "google-cloud-documentai", specifier = ">=3.16.0" },
     { name = "google-genai", specifier = ">=2.29.0" },
+    { name = "pydantic", specifier = ">=2.14.1" },
     { name = "python-decouple", specifier = ">=3.8" },
 ]
 
