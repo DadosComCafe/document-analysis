@@ -14,3 +14,8 @@ dependencies = [
     "pydantic>=2.14.1",
     "python-decouple>=3.8",
 ]
+
+[dependency-groups]
+dev = [
+    "pymupdf>=2.0",
+]
